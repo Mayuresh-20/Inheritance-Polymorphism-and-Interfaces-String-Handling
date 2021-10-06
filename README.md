@@ -100,6 +100,30 @@ For example:
 
 String str = new String("Anywhere");
 
+// Java code to illustrate String
+import java.io.*;
+import java.lang.*;
+ 
+class Test {
+    public static void main(String[] args)
+    {
+        // Declare String without using new operator
+        String s = "Arcade";
+ 
+        // Prints the String.
+        System.out.println("String s = " + s);
+ 
+        // Declare String using new operator
+        String s1 = new String("Games");
+ 
+        // Prints the String.
+        System.out.println("String s1 = " + s1);
+    }
+}
+Output: 
+String s = GeeksforGeeks
+String s1 = GeeksforGeeks
+
 Interfaces and Classes in Strings in Java
 
 ►CharBuffer: This class implements the CharSequence interface. This class is used to allow character buffers to be used in place of CharSequences. An example of such usage is the regular-expression package java.util.regex.
