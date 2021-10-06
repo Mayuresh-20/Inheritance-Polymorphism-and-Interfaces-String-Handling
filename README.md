@@ -119,6 +119,8 @@ str.append("GFG");
 
 ►StringTokenizer: 
 StringTokenizer class in Java is used to break a string into tokens. 
+![image](https://user-images.githubusercontent.com/91977965/136160308-76166b4b-d25a-49bd-b328-76f8392b6fd0.png)
+
 
 ►StringJoiner: 
 StringJoiner is a class in java.util package which is used to construct a sequence of characters(strings) separated by a delimiter and optionally starting with a supplied prefix and ending with a supplied suffix. Though this can also be with the help of StringBuilder class to append delimiter after each string, StringJoiner provides an easy way to do that without much code to write.
